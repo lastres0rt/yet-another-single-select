@@ -22,12 +22,14 @@ function App() {
       </header>
     </div>
   ); */
-  const [select, setSelect] = useState([{ id:1, name:'Selected 1', selected:false}])
+  const [select, setSelect] = useState([
+    { id:1, name:'Selected 1', selected:false}, 
+    { id:2, name:'Selected 2', selected:false}, 
+    { id:3, name:'Selected 3', selected:false}]);
+
   return (
     <>
-      <div>Select a Thing</div>
       <SimpleSelect select={select} />
-      <button>Select</button>
     </>
   )
 }
