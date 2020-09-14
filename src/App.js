@@ -29,7 +29,9 @@ function App() {
 
   return (
     <>
+      <h1>Select a thing!</h1>
       <SimpleSelect select={select} />
+      <p>You have selected: a mango!</p>
     </>
   )
 }
