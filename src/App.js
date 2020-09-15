@@ -27,11 +27,16 @@ function App() {
     { id:2, name:'Selected 2', selected:false}, 
     { id:3, name:'Selected 3', selected:false}]);
 
+  const [value, setValue] = useState('a mango');
+  const handleSelect = (e) => {
+    setValue(e)
+  }
+
   return (
     <>
       <h1>Select a thing!</h1>
-      <SimpleSelect select={select} />
-      <p>You have selected: a mango!</p>
+      <SimpleSelect title="Select a fruit" select={select} onChange={handleSelect}/>
+      <p>You have selected: {value}!</p>
     </>
   )
 }

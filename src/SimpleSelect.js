@@ -13,7 +13,7 @@ export default function SimpleSelect({select}) {
       setSelected(value);
       setIsOpen(false);
     }
-    
+
     return (
         <div className="SimpleSelect">
         <div className="SimpleSelect-header" onClick={toggling}>
@@ -25,14 +25,17 @@ export default function SimpleSelect({select}) {
                 : <FontAwesomeIcon icon={faAngleDown} size="1x" />}
             </div>
         </div>
-        {isOpen && (select.map(select => {
-            return <div className="SimpleSelect-selector" 
-                        onClick={onOptionClicked(select.name)}>
-                    <Select key={select.id} select = {select.name} />
-                </div>
-            })
-            )
-        }
+        {isOpen && (
+            <div className="SimpleSelect-list">
+                {select.map(select => {
+                        return <div className="SimpleSelect-selector" 
+                                onClick={onOptionClicked(select.name)}>
+                            <Select key={select.id} select = {select.name} />
+                        </div>
+                    }
+                )}
+            </div>
+        )}
         </div>
     )
 }
