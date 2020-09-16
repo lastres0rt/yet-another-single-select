@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import SimpleSelect from './SimpleSelect';
+import SimpleSelect from './lib/SimpleSelect';
 // import logo from './logo.svg';
 // import './App.css';
 
