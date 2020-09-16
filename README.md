@@ -6,9 +6,12 @@ Yet another dropdown single-select component for React (What, like we didn't hav
 ## Installation
 > I still need to set up the npm code for this.
 ## Website / Demo
-When I actually make it work on gh-pages, that link will be here as well. 
+See this component in action!
+➡️ https://lastres0rt.github.io/yet-another-single-select/ 
 ## Motivation
 When someone asks you to roll your own react-select, you do it.
+
+... okay, so it turns out that a lot of places want you to know how to code using React, so it helps to actually do a project in React.
 ## Usage
 ¯\_(ツ)_/¯
 ## Help and Contributions
