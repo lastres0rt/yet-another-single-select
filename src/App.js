@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <h1>Yet Another Simple Select!</h1>
+      <h1>Yet Another Single Select!</h1>
       <SimpleSelect title="Select a fruit" select={select} onChange={handleSelect}/>
       <p>What were you expecting, {value}?</p>
     </>
