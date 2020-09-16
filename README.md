@@ -4,7 +4,7 @@ Yet another dropdown single-select component for React (What, like we didn't hav
 - This is my simple select component
 - There are many like it, but this one is mine
 ## Installation
-> I still need to set up the npm code for this.
+Just run `npm install yet-another-single-select`
 ## Website / Demo
 See this component in action!
 ➡️ https://lastres0rt.github.io/yet-another-single-select/ 
