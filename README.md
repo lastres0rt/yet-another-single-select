@@ -13,9 +13,13 @@ When someone asks you to roll your own react-select, you do it.
 
 ... okay, so it turns out that a lot of places want you to know how to code using React, so it helps to actually do a project in React.
 ## Usage
-¯\_(ツ)_/¯
+... You want to include a dropdown on your form? ¯\\_(ツ)_/¯
 ## Help and Contributions
  - Fix issues
  - Suggest Features / Improvements
 
- If you're seeing this (and I haven't bothered to update the readme), I'm probably either looking for a job and could use a nice heap of training to get/keep my next one. 
+## Planned Features / Improvements
+(Read: things I know I left out of this version but I'm hoping to learn a thing and get them in there sooner or later)
+- Improved functionality with React Hooks (once I get a better grasp of those)
+- making the currently selected value distinguished from the others
+- changing the color of the selected value once someone actually selects a thing
